@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { News, News_ofus } from "@/types/all";
+import type { NewsType, News_ofus } from "@/types/all";
 import { getNews_ofus } from "@/api/news";
 import { motion } from "framer-motion";
 import Modal from "./newsModal";
@@ -8,7 +8,7 @@ function News() {
   const [newsList, setNewsList] = useState<News_ofus[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [newsModal, setNewsModal] = useState<News>()
+  const [newsModal, setNewsModal] = useState<NewsType>()
   const [openModal, setOpenModal] = useState(false)
   console.log(newsList, 'news');
 

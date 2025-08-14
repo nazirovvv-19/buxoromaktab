@@ -1,9 +1,9 @@
-import type { News } from "@/types/all"; // ✅ type-only import
+import type { NewsType } from "@/types/all"; // ✅ type-only import
 
 type ModalProps = {
   open: boolean;
   onClose: () => void;
-  news: News;
+  news: NewsType;
 };
 
 const Modal = ({ open, onClose, news }: ModalProps) => {

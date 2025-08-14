@@ -45,7 +45,7 @@ export interface News_ofus {
   content: string;
   date: string; //data bo'lishi kerak
 }
-export interface News {
+export interface NewsType {
   title: string;
   image: string; //url bo'lishi kerak
   content: string;
