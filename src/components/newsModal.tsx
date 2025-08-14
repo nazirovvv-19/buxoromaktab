@@ -1,4 +1,4 @@
-import type { News } from "@/types/all";
+import type { News } from "@/types/all"; // ✅ type-only import
 
 type ModalProps = {
   open: boolean;

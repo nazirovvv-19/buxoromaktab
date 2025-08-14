@@ -51,7 +51,6 @@ function ContactInfo() {
     );
   if (!contact) return null;
 
-  const locations = [contact.map1, contact.map2, contact.map3, contact.map4];
 
   return (
     <section className="w-full px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24 bg-gradient-to-br from-[#f0f9ff] via-[#e0f2fe] to-white dark:bg-gradient-to-br dark:from-[#001F3F] dark:via-[#2563eb] dark:to-[#1e3a8a] transition-colors duration-300">
